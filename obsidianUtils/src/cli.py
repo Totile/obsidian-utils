@@ -1,5 +1,5 @@
 import sys
-from outline import outline_to_heading
+from .outline import outline_to_heading
 
 def main() -> int:
     """ Entry point for the lib
@@ -19,7 +19,7 @@ def main() -> int:
     To-do:
         - implement parser
     """
-    outline_to_heading
+    outline_to_heading()
     
 
 if __name__ == '__main__':
